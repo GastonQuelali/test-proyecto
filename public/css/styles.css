@@ -1,0 +1,55 @@
+/* public/css/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+#post-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#post-table th, #post-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+#post-table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+}
+
+#post-table td {
+    color: #555;
+}
+
+#post-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#post-table tbody tr:hover {
+    background-color: #e3e3e3;
+}
+
+@media only screen and (max-width: 768px) {
+    #post-table th, #post-table td {
+        padding: 8px;
+    }
+}
